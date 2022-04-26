@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Field
 @Document(collection = "items")
 class TodoItem (
        @Id
-        var _id:String?,
+        var _id:String,
        @Field("title")
        var title:String,
         @Field("description")
